@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 20px;
+}
+
+.home__nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.home__messages {
+    min-width: 850px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 30px
+}
+
+.home__messages__actions {
+    align-self: flex-end;
+}
+
+@media(max-width: 850px) {
+    .home__messages {
+        min-width: 500px;
+    }
+}
+
+@media(max-width: 500px) {
+    .home__messages {
+        min-width: 350px;
+    }
+}

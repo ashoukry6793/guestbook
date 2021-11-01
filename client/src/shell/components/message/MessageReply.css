@@ -1,0 +1,37 @@
+.message-reply {
+    background-color: #FEFEFE;
+    padding: 10px;
+    border-inline-start: 3px solid #dad9d9;
+    margin-bottom: 20px;
+    margin-inline-start: 20px;
+}
+
+.message-reply__author {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message-reply__author__profile-pic {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #dad9d9;
+}
+
+.message-reply__author_info__name {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.message-reply__author-message {
+    margin-bottom: 20px;
+}

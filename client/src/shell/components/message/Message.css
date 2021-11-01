@@ -1,0 +1,53 @@
+.message {
+    border-radius: 4px;
+    background-color: #FEFEFE;
+    box-shadow: 1px 1px 5px #000000;
+    padding: 10px;
+}
+
+.message__reply-input {
+    background-color: #FEFEFE;
+    padding: 10px;
+    border-inline-start: 3px solid #dad9d9;
+    margin-bottom: 20px;
+    margin-inline-start: 20px;
+}
+
+.message__author {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.message__author__profile-pic {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #ffae00;
+    border-radius: 4px;
+}
+
+.message__author_info__name {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.message__author-message {
+    margin-bottom: 20px;
+}
+
+.message__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
